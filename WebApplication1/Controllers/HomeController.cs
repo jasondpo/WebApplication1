@@ -10,6 +10,7 @@ namespace WebApplication1.Controllers
     {
         public ActionResult Index()
         {
+            ViewBag.Message = "Hello World";
             return View();
         }
 
